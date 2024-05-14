@@ -58,10 +58,11 @@ body {
   background-size: cover;
   background-repeat: repeat;
   background-position: center center;
+  height: 100vh;
   font-family: "Tomorrow", sans-serif;
 }
 section {
-  margin: 50px;
+  margin: 2vw;
 }
 .container {
   display: flex;
