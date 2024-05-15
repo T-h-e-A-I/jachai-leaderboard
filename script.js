@@ -1,4 +1,4 @@
-var jsonData = [
+let jsonData = [
   {
     userName: "Yakeen ",
     userEmail: "yakeen.yp@gmail.com",
@@ -146,7 +146,7 @@ var jsonData = [
 ];
 // Function to generate table rows
 async function generateTableRows() {
-  if (jsonData.length > 0) {
+  if (jsonData.length == 0) {
     const response = await fetch(
       "https://xms-back-1.onrender.com/api/v1/user/course/rank/663a7bf60208645bc913a778"
     );
